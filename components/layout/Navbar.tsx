@@ -80,7 +80,7 @@ const {isConnected} = useAccount();
             >
               {userAddress === "" ? "Connect Wallet" : shortenAddress(userAddress)}
             </Button> */}
-            {/* <ConnectButton /> */}
+            <ConnectButton />
           </div>
 
           {/* Mobile Buttons */}
